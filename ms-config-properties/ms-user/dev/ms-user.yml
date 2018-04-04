@@ -6,14 +6,11 @@ spring:
   datasource:
     url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     username: sa
-    password:
-<<<<<<< HEAD
-  kafka:
+    password:    
+kafka:
     bootstrap-servers: localhost:9092
     topic:
       userCreated: USER_CREATED_TOPIC
-=======
->>>>>>> 7fef521daeb44be0454c08ee32fee4cc9c251161
 security:
   basic:
     enabled: false
